@@ -3988,14 +3988,15 @@ textarea.form-control-lg {
 }
 
 .nav-pills .nav-link {
-  background: none;
   border: 0;
   border-radius: 0.25rem;
+  color: white;
+  background-color: #70B865
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #A95C42;
+  color: white;
+  background-color: #EF4056
 }
 
 .nav-fill > .nav-link,
@@ -4511,7 +4512,7 @@ textarea.form-control-lg {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid white;
   border-radius: 0.25rem;
 }
 .card > hr {
@@ -11453,9 +11454,16 @@ img.img-thumbnail.team-img {
   width: 200px;
 }
 
+.partner-img {
+  max-width: 400px;
+  max-height: 200px;
+  margin-bottom: 1rem;
+}
+
+
 p.team-name {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 0.5rem;
 }
 
@@ -11464,3 +11472,12 @@ p.team-name {
   padding-left: 7rem;
   padding-right: 7rem;
 }
+
+ul#pills-tab {
+  margin-left: 6rem;
+}
+
+i.bi.bi-link {
+  color: lightgreen;
+}
+
